@@ -1,0 +1,12 @@
+/* home.css */
+
+/* Style for the container of page content */
+.page-content {
+    margin-top: 20px; /* Add margin for spacing */
+  }
+  
+  /* Style for each page */
+  .page {
+    margin-bottom: 20px; /* Add margin at the bottom to separate pages */
+  }
+  

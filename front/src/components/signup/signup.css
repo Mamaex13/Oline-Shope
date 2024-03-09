@@ -1,0 +1,49 @@
+.nabes {
+  max-width: 27%;
+  margin-bottom: 5%;
+  margin-left: 30%;
+  margin-top: 10%;
+  padding: 1%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+}
+
+.nabes h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.nabes form {
+  display: flex;
+  flex-direction: column;
+}
+
+.nabes .form-group {
+  margin-bottom: 15px;
+}
+
+.nabes label {
+  font-weight: bold;
+}
+
+.nabes input[type='email'],
+.nabes input[type='password'] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 95%;
+}
+
+.nabes button[type='submit'] {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nabes button[type='submit']:hover {
+  background-color: darkblue;
+}

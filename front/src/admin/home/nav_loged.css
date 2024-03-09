@@ -1,0 +1,60 @@
+/* Navbar.css */
+.topnav_loged {
+  background-color: #940505; /* Set the background color */
+  overflow: hidden; /* Ensure that the navbar does not overflow its container */
+  margin-left: 1%;
+  width: 70%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 2%;
+  height: 5%;
+  float: left;
+}
+
+.topnav_loged ul {
+  list-style-type: none; /* Remove the default list styles */
+  margin: 0;
+  padding: 1%;
+}
+
+.topnav_loged li {
+  float: left; /* Float the list items side by side */
+}
+
+.topnav_loged li a {
+  display: block; /* Display the links as block elements */
+  color: #fff; /* Set the text color */
+  text-decoration: none; /* Remove the underline */
+  padding: 10px 12px; /* Add some padding around the links */
+  text-align: center;
+}
+
+.topnav_loged li a:hover {
+  background-color: #111; /* Change the background color on hover */
+}
+
+.login_nav {
+  float: right; /* Float the right-aligned menu items to the right */
+  margin-right: 20px; /* Add margin to the right side */
+}
+
+.topnav_loged li a.active {
+  background-color: wheat;
+  border-radius: 5px;
+}
+
+/* Styles for screens smaller than 600px */
+@media (max-width: 600px) {
+  .topnav_loged ul {
+    list-style-type: none; /* Remove the default list styles */
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  .topnav_loged {
+    background-color: #940505; /* Set the background color */
+    overflow: hidden; /* Ensure that the navbar does not overflow its container */
+    width: 170px;
+    border-radius: 10px;
+  }
+}

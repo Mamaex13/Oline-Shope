@@ -1,0 +1,96 @@
+/* cat.css */
+
+.container {
+  max-width: 800px;
+  width: 60%;
+  margin-left: 23%;
+  padding: 20px;
+}
+
+.imput-form {
+  margin: 3%;
+  margin-top: 15%;
+  border: 1px solid burlywood;
+  
+  padding: 3%;
+}
+
+.imput-form h2 {
+  margin-bottom: 10px;
+}
+
+/* .form-group {
+  margin-bottom: 15px;
+  width: 40%;
+} */
+
+.imput-form-imputs input[type="text"],
+.imput-form-imputs[type="file"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+.form-group input[type="file"] {
+  padding-top: 8px; /* Adjust vertical padding for file input */
+}
+
+.button-group {
+  text-align: center;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-group button:hover {
+  background-color: #0056b3;
+}
+
+.display_imput h2 {
+  margin-bottom: 20px;
+}
+
+.together {
+ 
+  margin: 2%;
+  padding: 1%;
+}
+
+.together ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.together .data-item {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.together .data-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.together .data-item button {
+  padding: 8px 12px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.together .data-item button:hover {
+  background-color: #c82333;
+}

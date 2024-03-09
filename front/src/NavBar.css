@@ -1,0 +1,48 @@
+/* Navbar.css */
+.topnavA {
+    background-color: #333; /* Set the background color */
+    overflow: hidden; /* Ensure that the navbar does not overflow its container */
+  display: flex;
+flex-direction: column;
+float: left;
+width: 100%;
+margin-top: 1px;
+
+
+
+}
+  
+  .topnavA ul {
+    list-style-type: none; /* Remove the default list styles */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .topnavA li {
+    float: left; /* Float the list items side by side */
+  }
+  
+  .topnavA li a {
+    display: block; /* Display the links as block elements */
+    color: #fff; /* Set the text color */
+    text-decoration: none; /* Remove the underline */
+    padding: 14px 16px; /* Add some padding around the links */
+  }
+  
+  .topnavA li a:hover {
+    background-color: #0a0000; /* Change the background color on hover */
+  }
+
+  .nav-link.active {
+    background-color: rgb(124, 7, 7); 
+   
+display: block; 
+}
+.nav-link-login.active {
+  background-color: rgb(124, 7, 7); 
+ 
+display: block; 
+}
+.nav-item-addToCart{
+float: right;
+}

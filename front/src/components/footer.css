@@ -1,0 +1,80 @@
+body {
+    margin-bottom: 80px; /* Add space at the bottom of the content */
+    height: 100%;
+    margin: 0;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+   
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  /* Rest of the CSS code remains the same */
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  
+  
+  .footer-section.contact .contact-info p {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section.contact .contact-info i {
+    margin-right: 10px;
+  }
+  
+  .contact-info {
+   
+    padding: 10px 0;
+    text-align: center;
+  }
+  .footer-bottom {
+    background-color: #222;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .footer-bottom p, 
+  .contact-info  p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .footer-bottom p a,
+  .contact-info  p a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-bottom p a:hover {
+    text-decoration: underline;
+  }
+  
+   
+  
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .content {
+    flex: 1;
+  }

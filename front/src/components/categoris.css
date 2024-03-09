@@ -1,0 +1,44 @@
+/* Navbar.css */
+.Category_title{
+text-align: center;
+background-color: rgb(6, 10, 10);
+padding: 5px;
+
+color: aliceblue;
+margin: 10px;
+
+}
+.topnav_v {
+  background-color: chocolate; /* Set the background color */
+  overflow: hidden; /* Ensure that the navbar does not overflow its container */
+  float: left;
+  margin: 1%;
+  margin-top: 2%;
+ 
+  width: 23%;
+ 
+  max-height: 570px;
+ 
+}
+  
+  .topnav_v ul {
+    list-style-type: none; /* Remove the default list styles */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .topnav_v li {
+    border-bottom:3px solid white ; /* Float the list items side by side */
+   }
+  
+  .topnav_v li a {
+    display: block; /* Display the links as block elements */
+    color: #fff; /* Set the text color */
+    text-decoration: none; /* Remove the underline */
+    
+    padding: 12px 14px; /* Add some padding around the links */
+  }
+  
+  .topnav_v li a:hover {
+    background-color: #111; /* Change the background color on hover */
+  }
